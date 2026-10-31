@@ -1,0 +1,458 @@
+[
+  {
+    "img": "images/GXRXeFDXkAA-400.jpg",
+    "name": "Esra Üçkol, Ela Üçkol ve Bebek",
+    "age": 3,
+    "desc": "3 Temmuz 2018 Kırşehir'de Sedat Ü.nün kullandığı otomobil yola aniden çıkan KÖPEK SEBEBİYLE kaza yaptı, sürücü ağır yaralandı, eşi ve 3 yaşındaki kızı Ela araçta sıkışarak can verdi, genç kadının hamile olduğu ve bebeğin de öldüğü öğrenildi.",
+    "date": "2018-07-03",
+    "city": "Kırşehir"
+  },
+  {
+    "img": "images/GT_kZLbW8BIqDYq.jpg",
+    "name": "Sudenaz Tanhaş",
+    "age": 3,
+    "desc": "22 Ekim 2007 Erzurum'da çiftçilik yapan Osman T.'ın 3 yaşındaki kızını başıboş köpek yüz bölgesinden ısırdı, tedavi alınan minik kız kuduz'a bağlı beyin iltihabı sebebiyle önce felç geçirdi ardından bitkisel hayata girerek hayata veda etti.",
+    "date": "2007-10-22",
+    "city": "Erzurum"
+  },
+  {
+    "img": "images/Gj6ej0jWUAAiy2K.jpg",
+    "name": "Hayrunnisa Gök",
+    "age": 4,
+    "desc": "29 Haziran 2015 Hatay'ın Hassa ilçesinde kuduz teşhisi konulan köpek tarafından ısırılan 4 yaşındaki kız çocuğu, sevk edildiği Hacettepe Üniversitesi Tıp Fakültesi Hastanesinde 35 gün yaşam mucadelesi verdikten sonra hayatını kaybetti.",
+    "date": "2015-06-29",
+    "city": "Hatay"
+  },
+  {
+    "img": "images/GZxX2uaXsAIyZxw.jpg",
+    "name": "Ahmed Halil",
+    "age": 8,
+    "desc": "28 Ocak 2023 Adana'nın Yüreğir ilçesinde kaldırımda yürüyen çocuğa başıboş köpek saldırdı, 8 yaşındaki Ahmed karşı kaldırıma kaçarken yoldan geçen minibüs çarptı, hastaneye kaldırılan çocuk kurtarılamadı.",
+    "date": "2023-01-28",
+    "city": "Adana"
+  },
+  {
+    "img": "images/GLY0-B8WAAAtc7t.jpg",
+    "name": "Derviş Boztaş",
+    "age": 8,
+    "desc": "19 Aralık 2014 Kayseri Bünyan'da 8 yaşındaki ilkokul 2. sınıf öğrencisi Derviş Boztaş'ı okuldan geldikten sonra evinin bahçesinde kurt kırması tasmasız başıboş bir köpek parçalayarak öldürdü.",
+    "date": "2014-12-19",
+    "city": "Kayseri"
+  },
+  {
+    "img": "images/GenkZx6W4AERdJ5.jpg",
+    "name": "Muhammed Muaz",
+    "age": 9,
+    "desc": "11 Aralık 2024 Şanlıurfa, kuduz nedeniyle bir süredir Şanlıurfa'da tedavi gören Muhammed Muaz adlı 9 yaşındaki çocuk durumu ağırlaşınca Elazığ Fethi Sekin Şehir Hastanesine kaldırıldı. Küçük çocuk yapılan müdahaleye rağmen kurtarılamadı.",
+    "date": "2024-12-11",
+    "city": "Şanlıurfa"
+  },
+  {
+    "img": "images/Gomc9H9X0AErpey.jpg",
+    "name": "Yahya Gül ve Anne Karnındaki Bebek",
+    "age": 10,
+    "desc": "5 Nisan 2025 Muğla Milias-Söke karayolunda aniden yola fırlayan köpek kazaya neden oldu. Yoldan savrulup takla atan aracın içindeki 10 yaşındaki çocuk ve anne karnındaki bebek öldü 5 kişi ağır yaralandı.",
+    "date": "2025-04-05",
+    "city": "Muğla"
+  },
+  {
+    "img": "images/GWurG1PXQAALTxL.jpg",
+    "name": "Ceylin Çiğdem, Barlas Çiğdem",
+    "age": 11,
+    "desc": "23 Mayıs 2024 Mersin Silifke'de anne Perihan Ç.nin kullandığı araç yola fırlayan köpek sebebiyle kaza yaptı 11 yaşındaki Ceylin öldü, yaralanan baba kızının acısına dayanamayıp kalp krizi geçirerek vefat etti.",
+    "date": "2024-05-23",
+    "city": "Mersin"
+  },
+  {
+    "img": "images/GbOoJToW8AAm-cc.jpg",
+    "name": "Halilcan Gürgen",
+    "age": 14,
+    "desc": "29 Eylül 2020 İzmir Bergama'da bisiklet süren 14 yaşındaki çocuğa başıboş köpekler saldırdı. Kaçmaya çalışan Halilcan Gürgen bisikletiyle park halindeki kamyonete çarparak can verdi.",
+    "date": "2020-09-29",
+    "city": "İzmir"
+  },
+  {
+    "img": "images/GUPLtd5WYAAaGT_.jpg",
+    "name": "Gönül Karaoğlu",
+    "age": 17,
+    "desc": "20 Mart 2022 Konya Altınekin'de 17 yaşındaki genç kız üniversite hazırlık kursundan dönerken başıboş köpeklerin saldırısına uğradı. Korkudan kalp krizi geçiren genç kız çevredekilerin yetişmesine rağmen kurtarılamayarak olay yerinde öldü.",
+    "date": "2022-03-20",
+    "city": "Konya"
+  },
+  {
+    "img": "images/GQ36EcUWoAARWeh.jpg",
+    "name": "Fatma Sıla Ecerel, Nazife Nehir Akyay, Ali Yıldız, Hasan Özkaya",
+    "age": 18,
+    "desc": "20 Mayıs 2024 Balıkesir Burhaniye'de yola fırlayan bir köpek otoyolda feci bir kazaya sebep oldu, nişan kutlamaya giden Fatma Sıla Ecerel (18), Ali Yıldız (20), Hasan Özkaya (22), Nazife Nehir Akyay (22),  feci şekilde can verdi.",
+    "date": "2024-05-20",
+    "city": "Balıkesir"
+  },
+  {
+    "img": "images/GT1NwCBWMAAN0Xu.jpg",
+    "name": "Hilal Göyhan",
+    "age": 20,
+    "desc": "22 Nisan 2022 Çorum Sungurlu'da otomobildeki nişanlı çift otoyolda önlerine köpek fırlaması sonucu kaza yaptı, düğün hazırlıkları yapan genç kız (20) gelinlik giyecekken BİR KÖPEK YÜZÜNDEN kefen giyerek yaşama veda etti.",
+    "date": "2022-04-22",
+    "city": "Çorum"
+  },
+  {
+    "img": "images/GMmVtIhWAAAQoJu.jpg",
+    "name": "Rabia Kallı",
+    "age": 20,
+    "desc": "7 Mart 2022 Isparta Süleyman Demirel Üniversitesi psikoloji bölümü öğrencisi Rabia Kallı yurda giderken köpeklerin saldırısı sonucu yola fırladı, kamyonetin çarptığı 20 yaşındaki genç kız 7 günlük yaşam savaşının ardından hayatını kaybetti.",
+    "date": "2022-03-07",
+    "city": "Isparta"
+  },
+  {
+    "img": "images/GLYso6zWkAAXJib.jpg",
+    "name": "Burak Can Taşan",
+    "age": 23,
+    "desc": "14 Ağustos 2023, Adana'da ünlü motosiklet sürücüsü Burak Can Taşan seyir halindeyken önüne fırlayan köpeğe çarparak feci şekilde can verdi. 23 yaşındaki Burak Can'ın evlilik hazırlığında olduğu öğrenildi.",
+    "date": "2023-08-14",
+    "city": "Adana"
+  },
+  {
+    "img": "images/Ga13ikyWcAAnFEt.jpg",
+    "name": "İsmail Gönül, Mert Gönül",
+    "age": 24,
+    "desc": "18 Ekim 2024 Van'dan Hakkari istikametine giden ticari araç aniden önüne çıkan köpeğe çarptı. Direksiyon hakimiyetini kaybeden sürücünün kullandığı araçla karşıdan gelen kamyonet çarpıştı. Kazada 7 kişi yaralanırken baba İsmail Gönül (52) ile oğlu Mert Gönül (24) öldü.",
+    "date": "2024-10-18",
+    "city": "Van"
+  },
+  {
+    "img": "images/GTK5f9uXMAE3Qvz.jpg",
+    "name": "Furkan Berk Şahin",
+    "age": 24,
+    "desc": "16 Temmuz 2024'de Aydın'ın Nazilli ilçesinde 24 yaşındaki Hacettepe Üniversitesi Fizik Mühendisliği öğrencisi genç, bisikletle giderken köpeklerin kovalaması sonucu motosikletle çarpışarak hayatını kaybetti.",
+    "date": "2024-07-16",
+    "city": "Aydın"
+  },
+  {
+    "img": "images/GobNGQFWcAAIOFX.jpg",
+    "name": "Sevda Özkaya",
+    "age": 27,
+    "desc": "12 Nisan 2025 Şanlıurfa. Harran Üniversitesi matematik bölümü son sınıf öğrencisi Sevda Ö. köpeklerin kovalaması sonucu trafik kazası geçirdi. İki aracın birden çarptığı 27 yaşındaki genç kız feci şekilde can verdi.",
+    "date": "2025-04-12",
+    "city": "Şanlıurfa"
+  },
+  {
+    "img": "images/GWjx61pXAAAiLRV.jpg",
+    "name": "Gönül Elçin",
+    "age": 28,
+    "desc": "3 Eylül 2024 Denizli’de sürücü Gökhan Elçin yola aniden çıkan köpeğe çarpmamak için direksiyonu kırdı, orta refüje çıkan araç ağaca çarparak durabildi. Kazada, sürücü Gökhan Elçin’in eşi Gönül Elçin hayatını kaybetti, çocukları ağır yaralandı.",
+    "date": "2024-09-03",
+    "city": "Denizli"
+  },
+  {
+    "img": "images/GT123cvWQAAJ-ZH.jpg",
+    "name": "Lütfü Seray",
+    "age": 28,
+    "desc": "12 Temmuz 2023 ŞanlıUrfa; 28 yaşındaki genç mimar aşıları tam olan kendi köpeğinin saldırısına uğradı, veterinere götürdüğü köpeğin başıboş köpeklerle boğuştuğu ve kuduz kaptığı anlaşıldı, Lütfü Seray tedavi gördüğü hastanede kuduzdan vefat etti.",
+    "date": "2023-07-12",
+    "city": "Şanlıurfa"
+  },
+  {
+    "img": "images/GUUahJJXwAESfM-.jpg",
+    "name": "Ahmet Dayı",
+    "age": 34,
+    "desc": "8 Ağustos 2023 Manisa'nın Demirci ilçesinde 34 yaşındaki Ahmet Dayı'ya motosiketle giderken başıboş köpekler saldırdı. Saldırının etkisyle dengesini kaybedip düşen genç adam kafasını sert zemine çarparak olay yerinde öldü.",
+    "date": "2023-08-08",
+    "city": "Manisa"
+  },
+  {
+    "img": "images/Geh8jBAWsAAmXuH.jpg",
+    "name": "Soner Sarıtaş",
+    "age": 37,
+    "desc": "3 Kasım 2024 Kırıkkale. Ambulans ve iki otomobilin karıştığı kazada 37 yaşındaki Soner Sarıtaş hayatını kaybetti, 1’i bebek 5 kişi yaralandı. Kazaya yola fırlayan bir köpeğin neden olduğu, ölen kişinin bebeğin babası olduğu öğrenildi.",
+    "date": "2024-11-03",
+    "city": "Kırıkkale"
+  },
+  {
+    "img": "images/GUkVVncWoAAuPPw.jpg",
+    "name": "Songül Payas",
+    "age": 47,
+    "desc": "16 Ağustos 2021 Antalya'da ormanlık alanda köpeğini gezdiren 47 yaşındaki edebiyat öğretmeninin köpeğine başıboş köpekler saldırdı, köpeğini korumaya çalışan Songül Payas yüksekten düşerek geçirdiği beyin kanaması sonucu vefat etti.",
+    "date": "2021-08-16",
+    "city": "Antalya"
+  },
+  {
+    "img": "images/GKlKxq2XEAAArb8.jpg",
+    "name": "Mustafa Topçu",
+    "age": 48,
+    "desc": "5 Nisan 2024 Çanakkale belediye barınağında görevli Mustafa Topçu barınakta bulunan pitbulun ısırması sonucu hayatını kaybetti. Köpeğin ısırmasıyla bütün vücudu şişen ve moraran Topçu'nun vücudu, 45 günlük tedaviye cevap vermeyince öldü.",
+    "date": "2024-04-05",
+    "city": "Çanakkale"
+  },
+  {
+    "img": "images/GU_5gdEWIAAvmwZ.jpg",
+    "name": "Hamit Görgülü, Mehmet Yeşil",
+    "age": 53,
+    "desc": "13 Ağustos 2024 Aydın: annesine hastanede sıra almak için otomobiliyle yola çıkan Görgülü (53) aniden önüne çıkan köpeğe çarpmamak için direksiyonu kırdı. Savrulan otomobil şarampole uçarak takla atıp ağaca çarparak durdu. 2 kişi öldü.",
+    "date": "2024-08-13",
+    "city": "Aydın"
+  },
+  {
+    "img": "images/GnZo3bmXAAAGDJx.jpg",
+    "name": "Ercan Uzunlar",
+    "age": 61,
+    "desc": "31 Mart 2025 Ordu Altınordu'da başıboş köpeklerin saldırdığı motoksiklet kontrolden çıkıp yaya yolunda yürüyen 61 yaşındaki Ercan U.'ya çarptı. Ağır yaralanan adam 8 gün yoğun bakımda yattıktan sonra bugün hayatını kaybetti.",
+    "date": "2025-03-31",
+    "city": "Ordu"
+  },
+  {
+    "img": "images/GYVMlyGX0AA6WUW.jpg",
+    "name": "Osman Şanlı",
+    "age": 72,
+    "desc": "15 Eylül 2024 Isparta'nın Gönen ilçesinde sürü halinde gezen köpekler bahçesinde çalışan 72 yaşındaki adama saldırdı, boynundan ve vücudunun çeşitli yerlerinden ağır yaralanan Osman Ş. hastanede hayatını kaybetti.",
+    "date": "2024-09-15",
+    "city": "Isparta"
+  },
+  {
+    "img": "images/GUKMcVzWQAATqVy.jpg",
+    "name": "Mustafa Topal",
+    "age": 72,
+    "desc": "2 Temmuz 2022 Gaziantep; eşiyle yolda yürüyen 72 yaşındaki adama köpekler saldırdı. Eşi hafif yaralanan Mustafa Topal yüzünden ağır şekilde yaralandı 54 gün yoğun bakımda kalan adam uygulanan tüm tedavilere rağmen kurtarılamadı.",
+    "date": "2022-07-02",
+    "city": "Gaziantep"
+  },
+  {
+    "img": "images/GMmVtLCWAAA7qEB.jpg",
+    "name": "Şerife Arısan",
+    "age": 72,
+    "desc": "1 Mayıs 2024 Adana'nın İmamoğlu ilçesinde soğan toplamak için tarlaya giden 72 yaşındaki bir kadın başıboş köpeklerin saldırısı sonucu parçalanarak hayatını kaybetti.",
+    "date": "2024-05-01",
+    "city": "Adana"
+  },
+  {
+    "img": "images/GUZCDPJWwAACmIM.jpg",
+    "name": "Hamide Demir",
+    "age": 79,
+    "desc": "5 Eylül 2022 Zonguldak Devrek'te Almanya'dan tatil için memleketine gelen 79 yaşındaki kadını evlerinin önünde oğlunun beslediği 7 adet başıboş köpek parçalayarak öldürdü. Komşuları Hamide Demir'i kolları bacakları parçalanmış halde buldu.",
+    "date": "2022-09-05",
+    "city": "Zonguldak"
+  },
+  {
+    "img": "images/GT1K6QmWcAAE799.jpg",
+    "name": "Çiçek Boztaş",
+    "age": 82,
+    "desc": "5 Mayıs 2019 Elazığ Esentepe Mahallesinde Kırçiçeği Sokak'ta bulunan çeşmeden su dolduran 82 yaşındaki Çiçek Boztaş, evine döndüğü sırada sürü halinde gezen başıboş köpeklerin saldırısına uğrayarak feci şekilde hayatını kaybetti.",
+    "date": "2019-05-05",
+    "city": "Elazığ"
+  },
+  {
+    "img": "images/GUF2uh7W4AEfvYL.jpg",
+    "name": "Mehmet Arsoy",
+    "age": 88,
+    "desc": "18 Haziran 2022'de Aydın Çine’de başıboş köpeklerin saldırısına uğrayarak engelli aracıyla yol kenarındaki dere yatağına düştü, güçlükle çıkarılarak hastaneye kaldırılan 88 yaşındaki adam tedavi görmesine rağmen kurtarılamayarak vefat etti.",
+    "date": "2022-06-18",
+    "city": "Aydın"
+  },
+  {
+    "img": "images/m_emin_koc_17.jpg",
+    "name": "Mehmet Emin Koç",
+    "age": 17,
+    "desc": "Muğla Milas'ta sokak köpeklerinden korkan 17 yaşındaki lise öğrencisi Mehmet Emin Koç, yola atlayınca hafif ticari aracın çarpması sonucu ağır yaralandı. İki gün süren yaşam mücadelesini kaybeden genç, önlem alınmayan sokak köpekleri nedeniyle hayatını kaybetti.",
+    "date": "2023-03-31",
+    "city": "Muğla"
+  },
+  {
+    "img": "images/erinc_putun_35.jpg",
+    "name": "Erinç Pütün",
+    "age": 35,
+    "desc": "Eskişehir'de doktor aday Erinç Pütün, sokak köpeklerinin saldırısı sonucu hayatını kaybetti. Otopsi raporu, ölümün hayvan saldırısına bağlı dış kanamadan olduğunu doğruladı. Pütün, hayvanseverdi ve zaman zaman sokak hayvanlarına yiyecek veriyordu. Gözyaşlarıyla defnedildi.",
+    "date": "2015-03-14",
+    "city": "Eskişehir"
+  },
+  {
+    "img": "images/huseyin_ercal_8.jpg",
+    "name": "Hüseyin Erçal",
+    "age": 8,
+    "desc": "Şanlıurfa'da başıboş bir köpeğin ısırdığı 8 yaşındaki Hüseyin, kuduz hastalığına yenik düştü. Annesi, eşinin başka şehirde çalıştığını ve yalnız kaldığını belirtti. Küçük çocuk, ses ve ışıktan korkmaya başladıktan sonra yaşamını kaybetti.",
+    "date": "2010-01-22",
+    "city": "Şanlıurfa"
+  },
+  {
+    "img": "images/mustafa_ercetin_17.jpg",
+    "name": "Mustafa Erçetin",
+    "age": 10,
+    "desc": "Bitlis’in Adilcevaz ilçesinde kuduz bir köpek ısırığı sonrası tedavi gören 10 yaşındaki Mustafa Erçetin, Ankara Hacettepe Üniversitesi Tıp Fakültesi’nde yapılan tüm müdahalelere rağmen hayatını kaybetti. ",
+    "date": "2022-11-09",
+    "city": "Bitlis"
+  },
+  {
+    "img": "images/hasan_ahmed_17.jpg",
+    "name": "Hasan Ahmed",
+    "age": 17,
+    "desc": "Diyarbakır Ergani'de sokak köpeklerinin ısırdığı 17 yaşındaki Hasan Ahmed, kuduz hastalığı nedeniyle Şanlıurfa'da hayatını kaybetti. Son görüntülerinde su içmekten korkan genç, yürekleri burktu.",
+    "date": "2025-09-09",
+    "city": "Diyarbakır"
+  },
+  {
+    "img": "images/mahra_pinar_9.jpg",
+    "name": "Mahra Melin Pınar",
+    "age": "9",
+    "desc": "05.03.2022 tarihinde evinin karşısındaki boş arsada bulunan başıboş köpeklerin kovalaması sonucu yola koşunca kamyon çarptı, bacağı kesildi, 23 gün direndi ama 28 Mart 2022 de vefat etti. ",
+    "date": "2022-03-05",
+    "city": "Antalya"
+  },
+  {
+    "img": "images/eslem_teker_12.jpg",
+    "name": "Eslem Teker",
+    "age": "12",
+    "desc": "Eslem, karnesini aldıktan sonraki gün evinin yakınındaki kütüphaneye gitmek için dışarı çıktı.  Yolda sahipsiz köpeklerin saldırısına uğradı.Çevredeki kişiler çığlıkları duyup müdahale etti ve sağlık ekiplerine haber verdi. Ağır yaralı olarak Yüksekova Devlet Hastanesi'ne kaldırıldı ancak yapılan müdahalelere rağmen kurtarılamadı.",
+    "date": "2025-01-18",
+    "city": "Hakkari"
+  },
+  {
+    "img": "images/rana_selci_2.jpg",
+    "name": "Rana El Selci",
+    "age": 2,
+    "desc": "Rana, ailesiyle birlikte akraba ziyaretindeydi. Annesi iftar hazırlığı yaparken dışarı çıktı. Kısa süre sonra evden yaklaşık 100 metre uzaklıkta yaklaşık 10 başıboş köpeğin saldırısına uğradı. Çevredekiler müdahale ederek köpekleri uzaklaştırdı ancak ağır yaralanan Rana hastanede yaşamını yitirdi.",
+    "date": "2025-03-07",
+    "city": "Konya"
+  },
+  {
+    "img": "images/mehmet_ozer_14.jpg",
+    "name": "Mehmet Özer",
+    "age": 14,
+    "desc": "Kayseri'nin Hacılar ilçesinde 14 yaşındaki lise öğrencisi Mehmet Özer, okul çıkışında arkadaşıyla birlikte evine giderken yaklaşık 25 başıboş köpeğin saldırısına uğradı. Köpeklerden kaçmaya çalışan Mehmet ve arkadaşı karla kaplı alana doğru koştu ancak kısa süre sonra köpekler tarafından yakalandılar. Çevredeki vatandaşlar ve jandarma ekipleri müdahale ederek köpekleri uzaklaştırdı. Ancak Mehmet Özer aldığı ağır yaralar nedeniyle olay yerinde hayatını kaybetti. Arkadaşı Hacı Ali Tuğrul ise yaralı olarak kurtarıldı.",
+    "date": "2019-01-04",
+    "city": "Kayseri"
+  },
+  {
+    "img": "images/mustafa_ozberk_72.jpg",
+    "name": "Mustafa Özberk",
+    "age": 72,
+    "desc": "Kayseri'nin Sarız ilçesinde çoban köpeklerinin saldırdığı Mustafa Özberk, hayatını kaybetti. Olaya tanık olan Kemal Polat, \"Köpekler bizi bırakmıyor, cenazenin üzerinde bekliyordu. En son traktörle üzerlerine sürünce köpekler kaçtı. Baktık ki vefat etmiş.",
+    "date": "2025-04-17",
+    "city": "Kayseri"
+  },
+  {
+    "img": "images/cagri_turgut_35.jpg",
+    "name": "Muhammed Çağrı Turgut",
+    "age": 35,
+    "desc": "Mersin Yenişehir İlçe Emniyet Müdürlüğü'nde görevli mahalle bekçisi Muhammet Çağrı Turgut, akşam saatlerinde ilçedeki Mersin 3. Çevre yolunda seyir halindeyken başıboş köpek nedeniyle kaza yaptı. Başıboş sokak köpeğine çarpmamak için manevra yapan Bekçi Turgut’a iki araç çarptı. Müdahale etmek için olay yerine gelen sağlık ekiplerinin müdahale ettiği Turgut’un olay yerinde can verdiği belirlendi.",
+    "date": "2023-05-30",
+    "city": "Mersin"
+  },
+  {
+    "img": "images/ugur_percin_41.jpg",
+    "name": "Uğur Perçin",
+    "age": 41,
+    "desc": "Tokat'ta köpeğe çarpmamak için direksiyonu kırıp aydınlatma direğine çarpan kimya öğretmeni Uğur Perçin hayatını kaybetti. Perçin'i son yolculuğuna uğurlamak için Tokat Devlet Hastanesi morgu önüne gelen öğrencileri, gözyaşı döktü.",
+    "date": "2023-05-30",
+    "city": "Tokat"
+  },
+  {
+    "img": "images/aleyna_senol_2.jpg",
+    "name": "Aleyna Şenol",
+    "age": 2,
+    "desc": "Bursa'nın Geçit Mahallesi'nde evlerinin önünde oynarken kaybolan 2 yaşındaki Aleyna Şenol, yaklaşık 2 saat sonra evine 300 metre uzaklıktaki boş arazide ölü bulundu. İlk incelemelerde vücudunda 50 yara tespit edilen küçük kızın cenazesi, Bursa Adli Tıp Kurumu'nda yapılan otopsinin ardından ailesine teslim edildi. Yengesi Semra Şenol ise arama sırasında boş arazide bir grup köpeği uzaklaştırdıktan sonra Aleyna'nın cansız bedeniyle karşılaştığını ifade etti.",
+    "date": "2009-07-24",
+    "city": "Bursa"
+  },
+  {
+    "img": "images/leyla_arseven_53.jpg",
+    "name": "Leyla Arseven",
+    "age": 53,
+    "desc": "Adıyaman’da başıboş köpeğe çarpmamak için ani fren yapan araç, arkadan gelen başka bir aracın çarpması sonucu şarampole yuvarlandı. Araçta bulunan 2 kişi yaralı olarak kurtulurken, Leyla Arseven hayatını kaybetti.",
+    "date": "2023-06-18",
+    "city": "Adıyaman"
+  },
+  {
+    "img": "images/yesilyurt_gunce.jpg",
+    "name": "İsa Yeşilyurt,Gülistan Günçe,Ali Asaf Günçe,Zahir Can Günçe",
+    "age": 2,
+    "desc": "Kaza, Kahramanmaraş- Kayseri Yolu Göksun ilçesi Doğankonak Mahallesi sınırında meydana geldi. Göksun’dan Kayseri istikametine doğru seyir halinde olan Seyfullah Kazancı’nın kullandığı otomobilin önüne köpek çıktı. Sürücü Kazancı, köpeğe çarpmamak için direksiyonu kırdı. Savrulan otomobil, karşı şeride geçerek İsa Yeşilyurt idaresindeki otomobille kafa kafaya çarpışarak takla attı. Diğer otomobil ise adeta kağıt gibi ezildi. Can pazarının yaşandığı kazada, sürücülerden İsa Yeşilyurt ile Gülistan, Ali Asaf ve Zahir Can Günçe olay yerinde hayatını kaybetti. Diğer sürücü Seyfullah, Selim ve Yusuf Kazancı ile Kenan Günçe ise feci kazadan yaralı olarak kurtuldu.",
+    "date": "2023-04-19",
+    "city": "Kahramanmaraş"
+  },
+  {
+    "img": "images/ruken_kolcu_6.jpg",
+    "name": "Ruken Kolcu",
+    "age": 6,
+    "desc": "Van'ın Tuşba ilçesinde sabah saatlerinde köpeklerin saldırısına uğrayarak hayatını kaybeden 6 yaşındaki Ruken Kolcu gözyaşları içinde defnedildi. Feci şekilde ölen Ruken'in dayısı, \"Orada yaklaşık 20 köpek kıza saldırmış ve kızı yiyorlar. Babası köpekleri kovalamış ve kızını paramparça halde alıp eve gelmiş.\" dedi. Öte yandan vefat eden minik kızın yüzde 30 zihinsel engelli olduğu öğrenildi.",
+    "date": "2021-05-16",
+    "city": "Van"
+  },
+  {
+    "img": "images/mete_durna_9.jpg",
+    "name": "Emir Mete Durna",
+    "age": 9,
+    "desc": "Van'ın İpekyolu ilçesinde, arkadaşlarıyla oynarken bir köpeğin saldırısına uğrayan 9 yaşındaki Emir Mete Durna ağır yaralandı. Boğazından ve vücudunun çeşitli yerlerinden yaralanan çocuk, kaldırıldığı hastanede yapılan tüm müdahalelere rağmen kurtarılamadı. Olayı gören cami imamı Muhammet Emin Küçük, köpeğin çocuğun boğazını ısırdığını ve sağlık ekipleri gelene kadar ilk müdahaleyi yaptığını söyledi.",
+    "date": "2023-01-30",
+    "city": "Van"
+  },
+  {
+    "img": "images/ekrem_binak_21.jpg",
+    "name": "Ekrem Binak",
+    "age": 21,
+    "desc": "Büyükçekmece'de kaldırımda yürüyen Ekrem Binak, yanından geçtiği sırada köpeğin havlamasıyla korktu. Ani bir refleksle yola doğru kaçmak istedi. O sırada yoldan geçmekte olan kamyon Ekrem Binak'a çarptı. Ağır yaralanan Binak, hastanede tedavi altına alındı. Ancak günlerdir süren yaşam mücadelesi sonuç vermedi.Talihsiz genç hayatını kaybetti.",
+    "date": "2021-06-28",
+    "city": "İstanbul"
+  },
+  {
+    "img": "images/ayhan_ozcelik_40.jpg",
+    "name": "Ayhan Özçelik",
+    "age": 40,
+    "desc": "Ayhan Özçelik, 40 yaşında, zihinsel engelli bir vatandaştı. İstanbul'un Esenler ilçesinde yaşıyordu. Fatih ilçesindeki akrabalarını ziyaret ettikten sonra dönüş yolunda sahipsiz köpeklerin saldırısına uğradı. Ağır yaralı olarak hastaneye kaldırılan Özçelik, yapılan tüm müdahalelere rağmen hayatını kaybetti. Olayın ardından hazırlanan adli raporda, vücudunun çeşitli bölgelerinde çok sayıda derin yara bulunduğu, boyun bölgesinde ciddi yaralanmalar oluştuğu ve kendisine birden fazla köpeğin saldırdığı belirtildi.",
+    "date": "2024-08-19",
+    "city": "İstanbul"
+  },
+  {
+    "img": "images/hamza_ozsoy_5.jpg",
+    "name": "Hamza Özsoy",
+    "age": 5,
+    "desc": "Van'ın Saray ilçesinde sahipsiz 13 adet köpeğin saldırdığı 5 yaşındaki Hamza hayatını kaybetti, 10 yaşındaki kuzeni Ayaz hafif yaralandı. Çevredekilerin müdahalesiyle ekipler olay yerine sevk edildi, yaralı çocuk hastaneye kaldırıldı.",
+    "date": "2026-04-29",
+    "city": "Van"
+  },
+  {
+    "img": "images/sadik_demir_16.jpg",
+    "name": "Sadık Demir",
+    "age": 16,
+    "desc": "Yozgat'ta 16 yaşındaki Sadık Demir, sokak köpeklerinden kaçarken dengesini kaybedip başını kaldırımda çarptı. Hastaneye kaldırıldı ancak kurtarılamadı. Aile ve Sosyal Hizmetler Bakanlığı'nın sevgi evlerinde kalan genç, yaşanan trajediyle Türkiye'yi yasa boğdu.",
+    "date": "2026-03-08",
+    "city": "Yozgat"
+  },
+  {
+    "img": "images/asaf_aktekin_2.jpg",
+    "name": "Ali Asaf Aktekin",
+    "age": 2,
+    "desc": "Ağrı'nın Patnos ilçesinde 2 yaşındaki Ali Asaf Aktekin ve ablası Nehir, sokak köpeklerinin saldırısına uğradı. Nehir tedavi edilip taburcu olurken, 15 gün süren yaşam mücadelesini kaybeden Ali Asaf toprağa verildi.",
+    "date": "2022-06-14",
+    "city": "Ağrı"
+  },
+  {
+    "img": "images/hatip_sayilgan_60.jpg",
+    "name": "Hatip Sayılgan",
+    "age": 60,
+    "desc": "Adana'da, yağış sonrası portakal bahçesini kontrole giden Hatip Sayılgan, bizzat kendi beslediği 5 sokak köpeğinin saldırması sonucu hayatını kaybetti.",
+    "date": "2020-01-08",
+    "city": "Adana"
+  },
+  {
+    "img": "images/fidan_deveci_55.jpg",
+    "name": "Fidan Deveci",
+    "age": 55,
+    "desc": "İzmir'de sahipsiz köpeklerden kaçan Fidan Deveci'ye otomobil çarptı. Hastaneye kaldırılan Deveci, kurtarılamadı.",
+    "date": "2025-08-17",
+    "city": "İzmir"
+  },
+  {
+    "img": "images/hatice_coban_6.jpg",
+    "name": "Hatice Kübra Çoban",
+    "age": 6,
+    "desc": "Denizli'de Metin Çoban, yola çıkan köpeğe çarpmamak için manevra yapınca araç takla atıp tarlaya savruldu. Çoban ve eşi yaralandı, 6 yaşındaki kızları Hatice Kübra Çoban ise tüm müdahalelere rağmen hayatını kaybetti.",
+    "date": "2026-05-19",
+    "city": "Denizli"
+  },
+  {
+    "img": "images/taner_soral_17.jpg",
+    "name": "Taner Soral",
+    "age": 17,
+    "desc": "Hatay Samandağ’da yola çıkan sahipsiz köpeğe çarpan 17 yaşındaki motosiklet sürücüsü Taner Soral, park halindeki araca da çarpıp yaralandı. Hastanede hayatını kaybeden genç toprağa verildi.",
+    "date": "2024-07-15",
+    "city": "Hatay"
+  }
+]

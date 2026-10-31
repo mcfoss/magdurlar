@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Köpek Mağdurları Anıtı</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+  <h1>🪦 Köpek Mağdurları Anıtı</h1>
+
+  <div class="header-buttons">
+    <button id="contactBtn" class="contact-btn-header">Eksik bildir</button>
+    <button id="contactBtn" class="contact-btn-header"><a href="https://x.com/mcxsocial" target="_blank">X'ten
+        bana ulaş</a></button>
+  </div>
+
+  <div class="filters">
+    <input type="text" id="searchInput" placeholder="İsim, yaş, il veya içerikte ara...">
+    <select id="cityFilter">
+      <option value="">Tüm Şehirler</option>
+    </select>
+    <select id="yearFilter">
+      <option value="">Tüm Yıllar</option>
+    </select>
+    <button class="clear-btn" id="clearBtn" title="Filtreleri Temizle">×</button>
+  </div>
+
+  <div class="grid" id="gallery"></div>
+
+  <!-- Modal -->
+  <div id="modal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-content">
+      <span class="modal-close" role="button" tabindex="0" aria-label="Kapat">&times;</span>
+      <img id="modalImg" class="modal-img" src="" alt="">
+      <div class="modal-body">
+        <h2 id="modalTitle"></h2>
+        <p id="modalDesc"></p>
+        <div class="modal-meta">
+          <span id="modalDate"></span>
+          <span id="modalCity"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- İletişim Modal -->
+  <div id="contactModal" class="modal" aria-hidden="true">
+    <div class="modal-content contact-modal">
+      <span class="close" id="contactClose">&times;</span>
+      <h2>Eksik bildir</h2>
+      <p>Ekleme veya düzeltme bildirmek için formu doldurun</p>
+      <div class="form-wrapper">
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSchqb2rXNaql5o0gg_RhGhcbjd8nNGPLFQXT_p3SUMCO9OmWg/viewform?embedded=true"
+          width="100%" height="550" frameborder="0">Yükleniyor…</iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bilgi Modal -->
+  <div id="infoModal" class="modal" aria-hidden="true">
+    <div class="modal-content info-modal">
+      <span class="close" id="infoClose">&times;</span>
+      <h2>⚠️ Dikkat</h2>
+      <p>Bu sitede yer alan rakamlar gerçek toplamları yansıtmamaktadır ve referans olarak kesinlikle baz alınamaz.
+        Bu siteye henüz veri sağlanma aşamasındadır ve tamamlamış olmaktan çok uzaktır.</p>
+      <p>Ayrıca ölüm ile sonuçlanan vakalar kadar ölümden dönen, ağır yaralanma vakaları da olduğu unutulmamalıdır.
+        Hafif, orta şiddette yaralanmalar ve saldırıya uğramaların sayısı ise yıllık onbinler ile ifade edilmektedir.
+      </p>
+      <p><strong>Bilgilerinize arz olunur.</strong></p>
+      <button class="clear-btn" id="infoGotIt">Anladım</button>
+    </div>
+  </div>
+
+  <script>
+    let allData = [];
+    const modal = document.getElementById('modal');
+    const modalClose = document.querySelector('.modal-close');
+
+    async function loadGallery() {
+      try {
+        const res = await fetch('data.json');
+        allData = await res.json();
+        populateFilters();
+        renderGallery(allData.sort((i, j) => i.age - j.age));
+      } catch (e) {
+        document.getElementById('gallery').innerHTML = '<div class="no-results">JSON yüklenemedi</div>';
+      }
+    }
+
+    function populateFilters() {
+      const cityCount = {};
+      const yearCount = {};
+
+      allData.forEach(item => {
+        cityCount[item.city] = (cityCount[item.city] || 0) + 1;
+        const year = item.date.split('-')[0];
+        yearCount[year] = (yearCount[year] || 0) + 1;
+      });
+
+      const citySelect = document.getElementById('cityFilter');
+      Object.keys(cityCount).
+        sort(function (a, b) {
+          return a.localeCompare(b);
+        })
+        .forEach(city => {
+          const option = document.createElement('option');
+          option.value = city;
+          option.textContent = `${city} (${cityCount[city]})`;
+          citySelect.appendChild(option);
+        });
+
+      const yearSelect = document.getElementById('yearFilter');
+      Object.keys(yearCount).sort().reverse().forEach(year => {
+        const option = document.createElement('option');
+        option.value = year;
+        option.textContent = `${year} (${yearCount[year]})`;
+        yearSelect.appendChild(option);
+      });
+    }
+
+    function renderGallery(data) {
+      const grid = document.getElementById('gallery');
+
+      if (data.length === 0) {
+        grid.innerHTML = '<div class="no-results">Hiç kayıt bulunamadı</div>';
+        return;
+      }
+
+      grid.innerHTML = data.map((item, i) => {
+        const originalIndex = allData.indexOf(item);
+        return `
+    <div class="card" tabindex="0" role="button" aria-label="${item.name} detayını aç" onclick="openModal(${originalIndex})" onkeydown="if(event.key==='Enter') openModal(${originalIndex})">
+      <img src="${item.img}" alt="${item.name}" loading="lazy" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMjAwIj48cmVjdCBmaWxsPSIjMTExIiB3aWR0aD0iMzAwIiBoZWlnaHQ9IjIwMCIvPjx0ZXh0IGZpbGw9IiM1NTUiIHg9IjUwJSIgeT0iNTAlIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+Rm90b8SfcmFmIHlvazwvdGV4dD48L3N2Zz4='">
+      <div class="card-content">
+        <h3>${item.name + (item.age ? ` (${item.age})` : '')}</h3>
+        <p>${item.desc}</p>
+        <div class="card-meta">
+          <span>📅 ${item.date}</span>
+          <span>📍 ${item.city}</span>
+        </div>
+      </div>
+    </div>
+  `}).join('');
+    }
+
+    function openModal(index) {
+      const item = allData[index];
+      document.getElementById('modalImg').src = item.img;
+      document.getElementById('modalTitle').textContent = item.name + (item.age ? ` (${item.age})` : '');
+      document.getElementById('modalDesc').textContent = item.desc;
+      document.getElementById('modalDate').textContent = `📅 ${item.date}`;
+      document.getElementById('modalCity').textContent = `📍 ${item.city}`;
+      modal.style.display = 'block';
+      modal.setAttribute('aria-hidden', 'false');
+      document.body.style.overflow = 'hidden';
+      modalClose.focus();
+    }
+
+    function closeModal() {
+      modal.style.display = 'none';
+      modal.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = 'auto';
+    }
+
+    modalClose.onclick = closeModal;
+    modalClose.onkeydown = e => { if (e.key === 'Enter') closeModal() };
+
+    window.onclick = (e) => {
+      if (e.target == modal) closeModal();
+    }
+
+    // ESC ile kapatma eklendi
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && modal.style.display === 'block') closeModal();
+    });
+
+    function filterGallery() {
+      const search = document.getElementById('searchInput').value.toLowerCase();
+      const city = document.getElementById('cityFilter').value;
+      const year = document.getElementById('yearFilter').value;
+
+      const filtered = allData.filter(item => {
+        const matchSearch = !search ||
+          item.name.toLowerCase().includes(search) ||
+          item.desc.toLowerCase().includes(search) ||
+          item.city.toLowerCase().includes(search) ||
+          (
+            search[0] === '(' && search.endsWith(')') && item.age === parseInt(search.slice(1, -1))
+          );
+
+        const matchCity = !city || item.city === city;
+        const matchYear = !year || item.date.startsWith(year);
+        return matchSearch && matchCity && matchYear;
+      });
+
+      renderGallery(filtered);
+    }
+
+    function clearFilters() {
+      document.getElementById('searchInput').value = '';
+      document.getElementById('cityFilter').value = '';
+      document.getElementById('yearFilter').value = '';
+      renderGallery(allData);
+    }
+
+
+    document.getElementById('searchInput').addEventListener('input', filterGallery);
+    document.getElementById('cityFilter').addEventListener('change', filterGallery);
+    document.getElementById('yearFilter').addEventListener('change', filterGallery);
+    document.getElementById('clearBtn').addEventListener('click', clearFilters);
+
+    loadGallery();
+
+
+
+    // Contact modal
+    const contactBtn = document.getElementById('contactBtn');
+    const contactModal = document.getElementById('contactModal');
+    const contactClose = document.getElementById('contactClose');
+
+    contactBtn.addEventListener('click', () => {
+      contactModal.style.display = 'block';
+      document.body.style.overflow = 'hidden';
+    });
+
+    function closeContactModal() {
+      contactModal.style.display = 'none';
+      document.body.style.overflow = 'auto';
+    }
+
+    contactClose.addEventListener('click', closeContactModal);
+    contactModal.addEventListener('click', (e) => {
+      if (e.target === contactModal) closeContactModal();
+    });
+
+
+    // infoModal
+    const infoModal = document.getElementById('infoModal');
+    const infoClose = document.getElementById('infoClose');
+    const infoGotIt = document.getElementById('infoGotIt');
+
+    function showInfoModal() {
+      if (!localStorage.getItem('infoModalShown')) {
+        infoModal.style.display = 'block';
+        document.body.style.overflow = 'hidden';
+      }
+    }
+
+    function closeInfoModal() {
+      infoModal.style.display = 'none';
+      document.body.style.overflow = 'auto';
+      localStorage.setItem('infoModalShown', 'true');
+    }
+
+    infoClose.onclick = closeInfoModal;
+    infoGotIt.onclick = closeInfoModal;
+    infoModal.onclick = (e) => { if (e.target === infoModal) closeInfoModal(); }
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape' && infoModal.style.display === 'block') closeInfoModal();
+    });
+
+    window.addEventListener('load', () => setTimeout(showInfoModal, 400));
+
+  </script>
+
+</body>
+
+</html>
